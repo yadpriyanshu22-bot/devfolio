@@ -35,3 +35,6 @@ https://yadpriyanshu22-bot.github.io/devfolio/
 
 - Email: yad.priyanshu22@gmail.com
 - GitHub: https://github.com/yadpriyanshu22-bot
+ ## Status
+
+Portfolio website deployed successfully on GitHub Pages.
