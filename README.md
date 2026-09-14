@@ -37,4 +37,4 @@ https://yadpriyanshu22-bot.github.io/devfolio/
 - GitHub: https://github.com/yadpriyanshu22-bot
  ## Status
 
-Portfolio website deployed successfully on GitHub Pages.
+Portfolio website deployed successfully on GitHub Pages
