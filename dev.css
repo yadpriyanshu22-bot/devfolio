@@ -1,68 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
+:root {
+  --brand: #17b8a6;
+  --ink: #222;
+  --light: #f4f7f6;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Priyanshu Yadav | Portfolio</title>
-  <link rel="stylesheet" href="dev.css">
-</head>
+* {
+  box-sizing: border-box;
+}
 
-<body>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--ink);
+  background: var(--light);
+  line-height: 1.6;
+}
 
-  <header>
-    <h1>Priyanshu Yadav</h1>
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: var(--brand);
+  color: white;
+}
 
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+nav {
+  display: flex;
+  gap: 20px;
+}
 
-  <main>
+nav a {
+  color: white;
+  text-decoration: none;
+}
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am Priyanshu Yadav, a beginner web developer learning
-        HTML, CSS, JavaScript, and Python.
-      </p>
-    </section>
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
 
-    <section id="projects">
-      <h2>My Projects</h2>
+section {
+  margin-bottom: 50px;
+}
 
-      <div class="projects-grid">
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
-        <article class="project-card">
-          <h3>Live Greeter</h3>
-          <p>A JavaScript project that displays a greeting and counts characters.</p>
-          <a href="#">View Project</a>
-        </article>
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
 
-        <article class="project-card">
-          <h3>Dynamic List Builder</h3>
-          <p>A JavaScript project that creates and clears list items dynamically.</p>
-          <a href="#">View Project</a>
-        </article>
+.project-card a {
+  color: var(--brand);
+  font-weight: bold;
+}
 
-        <article class="project-card">
-          <h3>Warehouse Inventory</h3>
-          <p>A Python dictionary project that manages product stock and totals.</p>
-          <a href="#">View Project</a>
-        </article>
+footer {
+  padding: 30px 8%;
+  background: var(--ink);
+  color: white;
+}
 
-      </div>
-    </section>
+footer a {
+  color: white;
+  margin-right: 20px;
+}
 
-  </main>
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  <footer id="contact">
-    <h2>Contact Me</h2>
-    <a href="mailto:yad.priyanshu22@gmail.com">Email</a>
-    <a href="https://github.com/yadpriyanshu22-bot">GitHub</a>
-  </footer>
-
-</body>
-</html>
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
