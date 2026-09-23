@@ -20,6 +20,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
   padding: 20px 8%;
   background: var(--brand);
   color: white;
@@ -27,6 +29,7 @@ header {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -41,10 +44,6 @@ main {
   padding: 40px 20px;
 }
 
-section {
-  margin-bottom: 50px;
-}
-
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -54,8 +53,8 @@ section {
 .project-card {
   background: white;
   padding: 20px;
-  border-radius: 10px;
   border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
 .project-card a {
