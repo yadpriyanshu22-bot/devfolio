@@ -2,6 +2,8 @@
   --brand: #17b8a6;
   --ink: #222;
   --light: #f4f7f6;
+  --white: #fff;
+  --border: #ddd;
 }
 
 * {
@@ -24,7 +26,7 @@ header {
   gap: 15px;
   padding: 20px 8%;
   background: var(--brand);
-  color: white;
+  color: var(--white);
 }
 
 nav {
@@ -34,7 +36,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -51,9 +53,9 @@ main {
 }
 
 .project-card {
-  background: white;
+  background: var(--white);
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border);
   border-radius: 10px;
 }
 
@@ -65,11 +67,11 @@ main {
 footer {
   padding: 30px 8%;
   background: var(--ink);
-  color: white;
+  color: var(--white);
 }
 
 footer a {
-  color: white;
+  color: var(--white);
   margin-right: 20px;
 }
 
