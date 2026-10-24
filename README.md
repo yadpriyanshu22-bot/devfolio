@@ -60,5 +60,5 @@ The project uses HTML and CSS and does not require additional dependencies or in
 
 ## Deployment Status
 
-The portfolio website has been deployed successfully using GitHub Pages
+The portfolio website has been deployed successfully using GitHub Pages.
 
