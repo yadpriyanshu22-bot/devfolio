@@ -57,3 +57,4 @@ The portfolio is built using HTML and CSS, so no additional dependencies or inst
 
 The portfolio uses Flexbox and CSS Grid to organize the content.
 
+A CSS media query changes the project grid layout for smaller and larger screens, making the website responsive on desktop, tablet, and mobile devices.
